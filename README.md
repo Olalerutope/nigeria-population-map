@@ -1,4 +1,5 @@
 # Nigeria Spatial Analysis & Population Mapping in R
+ggsave("nigeria_population_map.png", width = 8, height = 6, dpi = 300)
 
 This repository contains an R script for spatial visualization and demographic analysis of Nigeria. It demonstrates how to fetch international administrative boundary data, load local shapefiles (`.shp`), perform data cleaning/joining operations, and generate a polished choropleth map using `ggplot2` and `sf`.
 
